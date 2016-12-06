@@ -12,6 +12,7 @@ sudo docker run -itd \
                 -p 50070:50070 \
                 -p 8088:8088 \
                 --name hadoop-master \
+                -v /Users/kingkz/GoogleDrive/cs6240_pdp/cs6240_pdp/MatrixPagerank:/pagerank kiwenlau/hadoop:1.0
                 --hostname hadoop-master \
                 kiwenlau/hadoop:1.0 &> /dev/null
 
